@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*==================================*/
+
+.header{
+	height: 90px;
+}
+
+
+.search{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  float: right;
+}
+
+
+
+.search input #button{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: right;
+  color: #fff;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+/*topmenu*/
+
+.topmenu{
+	/*height: 40px;*/
+}
+
+.topmenu ul{
+	float: right;
+	margin: 5px;
+}
+
+.topmenu ul li{
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+
+.topmenu ul li a{
+	color: #22b28e;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.topmenu ul li a:hover{
+	font-size: 20px;
+	border-color: #22b28e;
+}
+
+/*=================================*/
+
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background: url(../img/login_back.jpg);
+	background-color: rgba(0,0,0,0.1);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.login{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	padding: 30px;
+	font-family: "微軟正黑體"，sans-serif;
+	width: 25%;
+}
+
+.login i{
+	font-size: 100px;
+	margin: 20px auto;
+}
+
+input[type='text'],input[type='password']{
+	font-size: 16px;
+	font-family:"微軟正黑體"，sans-serif;
+	padding: 5px;
+	border-radius: 4px;
+	margin: 0 auto;
+	display: block;
+	width: 100%; 
+}
+
+button{
+	border:0;
+	padding: 4px 8px;
+	margin: 20px auto;
+	font-size: 18px;
+	font-family:"微軟正黑體"，sans-serif;
+	background: #fff;
+	color: #000;
+}
+
+@media (max-width: 450px) {
+	.login{
+		width: 70%;
+	}
+}
