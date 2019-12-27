@@ -1,0 +1,280 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*==================================*/
+
+.header{
+	height: 90px;
+}
+
+
+.search{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  float: right;
+}
+
+
+
+.search input #button{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: right;
+  color: #fff;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+/*topmenu*/
+
+.topmenu{
+	/*height: 40px;*/
+}
+
+.topmenu ul{
+	float: right;
+	margin: 5px;
+}
+
+.topmenu ul li{
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+
+.topmenu ul li a{
+	color: #22b28e;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.topmenu ul li a:hover{
+	font-size: 20px;
+	border-color: #22b28e;
+}
+
+
+/*==================================*/
+
+/*form*/
+
+.form{
+	/*width: 1350px;*/
+	/*height: 400px;*/
+	/*margin-left: 80px;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-image: linear-gradient(to bottom,#00664c,#22b28e);*/
+	background:url(../img/contact_back2.jpg);
+}
+
+.form h1{
+	color:#000;
+	font-size: 40px;
+	text-align: center;
+	line-height: 150%;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	font-family: "微軟正黑體"，sans-serif;
+	font-weight: bold;
+}
+
+.form textarea{
+	/*margin-left: 40px;*/
+	margin-bottom: 40px;
+	margin-left: 100px;
+
+}
+
+.form form{
+	/*float: right;*/
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 70px;
+	margin-left: 100px;
+	font-weight: bold;
+	text-align: center;
+	font-family: "微軟正黑體"，sans-serif;
+
+}
+
+.form form input{
+	zoom:1.5;
+	width: 700px;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+.form #button{
+	/*float: right;*/
+	width: 120px;
+	color: #000;
+	font-weight: bold;
+	font-family: "微軟正黑體"，sans-serif;
+	/*background-color: #22b28e;*/
+}
+
+
+/*========================*/
+
+@media only screen and (max-width: 768px){
+
+	.form{
+		background-size: 800px 1000px;
+		/*background-image: linear-gradient(to bottom,#00664c,#22b28e);*/
+		background:url(../img/contact_back2.jpg);
+	}
+
+	.form form{
+		/*float: right;*/
+		color: #000;
+		font-size: 25px;
+		font-weight: bold;
+		margin-right: 70px;
+		margin-left: 50px;
+		font-weight: bold;
+		text-align: center;
+		font-family: "微軟正黑體"，sans-serif;
+
+	}
+
+	.form textarea{
+		width: 450px;
+		height: 500px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.form form input{
+		width: 400px;
+		height: 50px;
+		border-radius: 8px;
+		margin-bottom: 20px;
+	}
+
+	.form #button{
+		float: right;
+		width: 400px;
+		height: 50px;
+		color: #000;
+	}
+
+	.footermenu{
+		width: 800px;
+	}
+}
+
+
+@media only screen and (max-width: 640px){
+
+	.form{
+		background-size: 300px 1000px;
+		/*background-image: linear-gradient(to bottom,#00664c,#22b28e);*/
+		background:url(../img/contact_back2.jpg);
+	}
+
+	.form textarea{
+		width: 450px;
+		height: 500px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+
+	.form form input{
+		width: 400px;
+		height: 50px;
+		border-radius: 8px;
+		margin-bottom: 20px;
+		margin-left: 0;
+	}
+
+	.form #button{
+		float: right;
+		width: 400px;
+		height: 50px;
+		color: #000;
+	}
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+	.form form{
+		/*float: right;*/
+		color: #000;
+		font-size: 25px;
+		font-weight: bold;
+		margin-right: 70px;
+		margin-left: 5px;
+		font-weight: bold;
+		text-align: center;
+		font-family: "微軟正黑體"，sans-serif;
+
+	}
+
+	.form form input{
+		zoom:1.5;
+		width: 700px;
+		height: 30px;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		margin-left: 0;
+	}
+
+}
