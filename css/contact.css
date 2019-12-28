@@ -175,9 +175,11 @@ table {
 @media only screen and (max-width: 768px){
 
 	.form{
-		background-size: 800px 1000px;
+		/*background-size: 800px 1000px;*/
+		background-size: auto;
 		/*background-image: linear-gradient(to bottom,#00664c,#22b28e);*/
 		background:url(../img/contact_back2.jpg);
+		background-repeat: repeat;
 	}
 
 	.form form{
@@ -194,7 +196,7 @@ table {
 	}
 
 	.form textarea{
-		width: 450px;
+		width: 400px;
 		height: 500px;
 		margin-left: 10px;
 		margin-bottom: 10px;
@@ -220,23 +222,36 @@ table {
 }
 
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 480px){
 
 	.form{
-		background-size: 300px 1000px;
+		/*background-size: 300px 1000px;*/
 		/*background-image: linear-gradient(to bottom,#00664c,#22b28e);*/
 		background:url(../img/contact_back2.jpg);
 	}
 
 	.form textarea{
-		width: 450px;
+		width: 300px;
 		height: 500px;
 		margin-left: 10px;
 		margin-bottom: 10px;
 	}
 
+	.form form{
+		/*float: right;*/
+		color: #000;
+		font-size: 25px;
+		font-weight: bold;
+		margin-right: 70px;
+		margin-left: 25px;
+		font-weight: bold;
+		text-align: center;
+		font-family: "微軟正黑體"，sans-serif;
+
+	}
+
 	.form form input{
-		width: 400px;
+		width: 300px;
 		height: 50px;
 		border-radius: 8px;
 		margin-bottom: 20px;
@@ -261,7 +276,7 @@ table {
 		font-size: 25px;
 		font-weight: bold;
 		margin-right: 70px;
-		margin-left: 5px;
+		margin-left: 10px;
 		font-weight: bold;
 		text-align: center;
 		font-family: "微軟正黑體"，sans-serif;
@@ -270,11 +285,18 @@ table {
 
 	.form form input{
 		zoom:1.5;
-		width: 700px;
+		width: 150px;
 		height: 30px;
 		border-radius: 5px;
 		margin-bottom: 20px;
 		margin-left: 0;
+	}
+
+	.form textarea{
+		width: 150px;
+		height: 500px;
+		margin-left: 10px;
+		margin-bottom: 10px;
 	}
 
 }
